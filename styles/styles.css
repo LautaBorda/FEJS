@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header  */
+
+nav {
+    align-items: center;
+    background-color: black;
+    height: 20vh;
+}
+
+.logo {
+    width: 100%;
+    max-height: 7vh;
+    max-width: 26vh;
+}
+
+nav>a {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    background-color: #e64b4b;
+    margin-right: 4vh;
+    height: 8vh;
+    justify-content: center;
+    border-radius: 28px;
+}
+
+.scn-header {
+    height: 20vh;
+    background-color: lightgray;
+    align-items: center;
+    text-align: center;
+}
+
+.scn-header>a {
+    text-decoration: none;
+    color: black;
+}
+
+.checkboxes>label {
+  font-size: small;
+}
+
