@@ -13,7 +13,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     background-color: black;
-    height: 26vh;
+    height: 20vh;
 }
 
 .logo {
@@ -42,7 +42,7 @@ nav>div>a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 26vh;
+    height: 20vh;
     background-color: lightgray;
     align-items: center;
     text-align: center;
