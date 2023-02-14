@@ -51,7 +51,9 @@ nav>a {
 .card-container {
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
@@ -59,12 +61,11 @@ img {
 }
 
 .card {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 35vh;
+    padding: 10px;
+    box-shadow: 3px 2px lightgrey;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 13px;
     margin-top: 7vh;
 
 }
@@ -83,6 +84,8 @@ img {
 }
 
 footer { 
+
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -91,4 +94,102 @@ footer {
 
 footer>div, h5 {
     padding: 5px;
+}
+
+table {
+    width: 70%;
+    border-spacing: 20px 10px;
+    border-collapse: collapse;
+}
+
+.table-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.theader {
+    background-color: lightgray;
+    box-shadow: 3px 2px lightgrey;
+    border: 1px solid black;
+}
+
+caption {
+
+    text-align: initial;
+    border-spacing: 0px;
+    padding: 15px 0px;
+    text-decoration: underline;
+}
+
+tbody {
+    border: 1px solid;
+}
+
+.formcontainer {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+
+.formcontainer>form {
+    margin-bottom: 15px;
+    box-shadow: 3px 2px lightgrey;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.detailcont {
+    align-items: center;
+    border: 1px solid black;
+    height: 40vh;
+    padding: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 3vh;
+}
+
+.details {
+    justify-content: center;
+    display: flex;
+    
+}
+
+.detailcont>div {
+    text-align: center;
+    height: 90%;
+    width: 50%;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.detailcont>div>img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+    .logo {
+        display: none;
+    }
+
 }
