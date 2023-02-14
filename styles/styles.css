@@ -7,9 +7,13 @@
 /* header  */
 
 nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     background-color: black;
-    height: 20vh;
+    height: 26vh;
 }
 
 .logo {
@@ -18,7 +22,8 @@ nav {
     max-width: 26vh;
 }
 
-nav>a {
+nav>div>a {
+    padding: 10px;
     text-align: center;
     align-items: center;
     display: flex;
@@ -30,10 +35,14 @@ nav>a {
     height: 8vh;
     justify-content: center;
     border-radius: 28px;
+    display: inline;
 }
 
 .scn-header {
-    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 26vh;
     background-color: lightgray;
     align-items: center;
     text-align: center;
@@ -61,6 +70,7 @@ img {
 }
 
 .card {
+    text-align: center;
     padding: 10px;
     box-shadow: 3px 2px lightgrey;
     border: 1px solid black;
@@ -190,6 +200,22 @@ tbody {
 
     .logo {
         display: none;
+    }
+
+    nav>div {
+        width: 100%;
+    }
+
+    nav>div>a {
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
     }
 
 }
